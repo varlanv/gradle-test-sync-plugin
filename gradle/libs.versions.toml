@@ -1,6 +1,6 @@
 [versions]
-junitJupiter = "5.11.4"
-junitPlatform = "1.11.4"
+junitJupiter = "5.12.0"
+junitPlatform = "1.12.0"
 lombok = "1.18.36"
 assertJ = "3.27.3"
 jetbrains-annotations = "26.0.2"

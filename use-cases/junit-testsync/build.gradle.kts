@@ -59,9 +59,9 @@ subprojects {
         }
     }
 
-    val junitPlatformDep = "org.junit.platform:junit-platform-launcher:1.11.4"
-    val junitApiDep = "org.junit.jupiter:junit-jupiter-api:5.11.4"
-    val junitEngineDep = "org.junit.jupiter:junit-jupiter-engine:5.11.4"
+    val junitPlatformDep = "org.junit.platform:junit-platform-launcher:1.12.0"
+    val junitApiDep = "org.junit.jupiter:junit-jupiter-api:5.12.0"
+    val junitEngineDep = "org.junit.jupiter:junit-jupiter-engine:5.12.0"
     if (project.name.contains("single-tag")) {
         if (project.name == "base-single-tag") {
             project.dependencies.add("api", junitApiDep)
